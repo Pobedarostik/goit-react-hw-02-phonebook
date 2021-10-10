@@ -1,0 +1,23 @@
+.list {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover {
+  transform: scale(1.3);
+}
